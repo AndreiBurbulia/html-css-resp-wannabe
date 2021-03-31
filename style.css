@@ -81,11 +81,16 @@ img {
     margin: 0;
     padding: 0%;
   }
+  
   .row {
-    width: 420px;
-    margin-left: 0;
-    margin-right: 0;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-top: 0px;
+    padding: 10px;
+  }
+  .left, .right, .central{
+    margin-bottom: 20px;
   }
 
   /* BLOCCO LEZIONI */
@@ -101,10 +106,6 @@ img {
     float: left;
   }
 
-  .left, .right{
-    margin-bottom: 20px;
-  }
-
   /* BLOCCO STEPS */
   #steps .row>.left,
   #steps .row>.central,
@@ -112,4 +113,17 @@ img {
     float: left;
     width: 100%;
   }
+
+  /* BLOCCO PERCHE */
+
+  #why{
+    background-color: lightyellow;
+    padding: 10px;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 20px;
+  }
+
 }

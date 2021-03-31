@@ -76,24 +76,33 @@ img {
 /* Sezione per schermi con meno di 480px */
 
 @media screen and (max-width:480px){
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+  }
   .row {
     width: 420px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0px;
   }
 
   /* BLOCCO LEZIONI */
   #lezioni{
     background-color: lightyellow;
   }
-  #lezioni .row img{
+   img{
     height: 100px;
   }
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
     float: left;
+  }
+
+  .left, .right{
+    margin-bottom: 20px;
   }
 
   /* BLOCCO STEPS */
